@@ -41,9 +41,9 @@ Definice kódování
 
 **Pohyb čtecí / zapisovací hlavy**
 
-* LEFT - 0
-* STAND - 00
-* RIGHT - 000
+* ```LEFT``` - ```0```
+* ```STAND``` - ```00```
+* ```RIGHT``` - ```000```
 
 **Přechodová funkce**
 

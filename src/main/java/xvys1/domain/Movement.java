@@ -50,8 +50,7 @@ public enum Movement {
 		} else if (code.equals("000")) {
 			return Movement.RIGHT;
 		} else {
-			throw new IllegalArgumentException("Unsupported movement code - "
-					+ code + ".");
+			throw new IllegalArgumentException("Unsupported movement code: " + code + ".");
 		}
 	}
 

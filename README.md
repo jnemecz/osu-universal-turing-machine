@@ -5,7 +5,7 @@ Implementace univerzálního Turingova stroje do předmětu XVYS1 (AR 2013/2014 
 
 Požadavky pro spuštění: Java 1.7, Maven 3.
 
-Použití:
+**Použití:**
 
 ```
  mvn assembly:assembly
@@ -28,17 +28,18 @@ $$$
 {data}
 ```
 
-Definice kódování:
+Definice kódování
+--------------
 
-Stavy:
+**Stav**
 
 * ```q1``` - ```0```
 * ```q2``` - ```00```
 * ```q3``` - ```000```
 * ```q4``` - ```0000```
-* atd.
+* atd. (tzn. že počet null definuje pořadové číslo stavu)
 
-Pohyby hlavy:
+**Pohyb čtecí / zapisovací hlavy**
 
 * LEFT - 0
 * STAND - 00
@@ -57,6 +58,9 @@ je rozložena jako:
 * výstupní stav - ```q1```
 * výstupní symbol zapsaný na pásku - ```#```
 * posun hlavy doprava (```0 - LEFT```, ```00 - STAND```, ```000 - RIGHT```)
+
+Příklad
+--------------
 
 Ex.: Zadání Turingova stroje navýšujícího binární číslo o 1:
 
@@ -92,7 +96,7 @@ $$$
 10000
 ```
 
-Spuštění:
+**Spuštění**
 
 ```
 Konfigurace Turingova stroje

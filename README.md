@@ -3,6 +3,8 @@ universal-turing-machine
 
 Implementace Turingova stroje do předmětu XVYS1 (AR 2013/2014 - ZS).
 
+Požadavky: Java 1.7, Maven 3.
+
 Použití:
 
 ```

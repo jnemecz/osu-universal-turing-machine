@@ -28,6 +28,22 @@ $$$
 {data}
 ```
 
+Definice kódování:
+
+Stavy:
+
+* ```q1``` - ```0```
+* ```q2``` - ```00```
+* ```q3``` - ```000```
+* ```q4``` - ```0000```
+* atd.
+
+Pohyby hlavy:
+
+* LEFT - 0
+* STAND - 00
+* RIGHT - 000
+
 Přechodová funkce se skládá z pěti hodnot oddělených ```$```, např.:
 
 ```

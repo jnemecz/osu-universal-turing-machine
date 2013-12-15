@@ -45,6 +45,8 @@ Definice kódování
 * STAND - 00
 * RIGHT - 000
 
+**Přechodová funkce**
+
 Přechodová funkce se skládá z pěti hodnot oddělených ```$```, např.:
 
 ```

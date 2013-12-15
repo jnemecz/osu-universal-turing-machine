@@ -1,7 +1,7 @@
 universal-turing-machine
 ========================
 
-Implementace univerzálního Turingova stroje do předmětu XVYS1 (AR 2013/2014 - ZS).
+Implementace univerzálního [Turingova stroje](http://en.wikipedia.org/wiki/Universal_Turing_machine) do předmětu XVYS1 (AR 2013/2014 - ZS).
 
 Požadavky pro spuštění: Java 1.7, Maven 3.
 
@@ -16,7 +16,7 @@ Požadavky pro spuštění: Java 1.7, Maven 3.
  java -jar maven-assembly-plugin.jar data.txt
 ```
 
-Datový soubor ```data.txt``` obsahuje zakódovaný Turingův stroj ve formátu:
+Datový plaintextový soubor ```data.txt``` obsahuje zakódovaný Turingův stroj ve formátu:
 
 ```
 {pocatecni_stav}
@@ -53,13 +53,13 @@ Přechodová funkce se skládá z pěti hodnot oddělených ```$```, např.:
 0$#$0$#$000$$
 ```
 
-je rozložena jako:
+bude rozložena jako:
 
 * vstupní stav - ```q1```
-* vstupní symbol - ```#```
+* načtený symbol - ```#```
 * výstupní stav - ```q1```
-* výstupní symbol zapsaný na pásku - ```#```
-* posun hlavy doprava (```0 - LEFT```, ```00 - STAND```, ```000 - RIGHT```)
+* symbol zapsaný na pásku - ```#```
+* posun hlavy doprava ```000 - RIGHT```
 
 Příklad
 --------------

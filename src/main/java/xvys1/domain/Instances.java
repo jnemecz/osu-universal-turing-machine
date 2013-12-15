@@ -26,8 +26,6 @@ public class Instances {
 		tsSB.append("$$$");
 		tsSB.append(data);
 		
-		System.out.println(tsSB.toString());
-
 		return TuringMachine.fromString(tsSB.toString());
 
 	}

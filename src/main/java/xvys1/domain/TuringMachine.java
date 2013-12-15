@@ -42,9 +42,9 @@ public class TuringMachine {
 	public void process(char inputSymbol) {
 
 		if (this.isDone == true) {
-			throw new IllegalStateException("This machine is some of its final states.");
+			throw new IllegalStateException("This Turing machine is in one of its final states.");
 		} else if (this.isErrorState() == true) {
-			throw new IllegalStateException("This machine is in an error state and cannot continue.");
+			throw new IllegalStateException("This Turing machine is in an error state and won't continue.");
 		}
 
 		boolean transitionFunctionFound = false;

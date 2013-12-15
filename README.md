@@ -1,9 +1,9 @@
 universal-turing-machine
 ========================
 
-Implementace Turingova stroje do předmětu XVYS1 (AR 2013/2014 - ZS).
+Implementace univerzálního Turingova stroje do předmětu XVYS1 (AR 2013/2014 - ZS).
 
-Požadavky: Java 1.7, Maven 3.
+Požadavky pro spuštění: Java 1.7, Maven 3.
 
 Použití:
 
@@ -16,7 +16,7 @@ Použití:
  java -jar maven-assembly-plugin.jar data.txt
 ```
 
-Soubor ```data.txt``` obsahuje zakódovaný Turingův stroj ve formátu:
+Datový soubor ```data.txt``` obsahuje zakódovaný Turingův stroj ve formátu:
 
 ```
 {pocatecni_stav}
